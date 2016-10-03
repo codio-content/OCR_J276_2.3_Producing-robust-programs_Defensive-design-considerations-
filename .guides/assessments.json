@@ -8,33 +8,52 @@
    "instructions": "**Select correct answers from the available list**",
    "points": "1",
    "showValues": true,
-   "text": "nameExists = False\n\nwhile nameExists == <<<False>>>\n\n\tinputName = input(“Please enter your login name.”)\n\n\tfor index = <<<0 to users.length – 1>>>\n\n\t\tif users[index, 0] == inputName then\n\n\t\t\t<<<nameExists = True>>>\n\n\t\tendif\n\n\tnext index\n\n\tif <<<nameExists == False then>>>\n\n\t\tprint(“That login name does not exist.”)\n\n\tendif\n\nendwhile\n\n\npasswordCorrect = False\n\n<<<while passwordCorrect == False>>>\n\n\tinputPassword = input(“Please enter your password.”)\n\n\tif inputPassword == <<<users[index, 1] then>>>\n\n\t\tpasswordCorrect = True\n\n\t<<<else>>>\n\n\t\tprint(“Sorry. The password is incorrect.”)\n\n\n\tendif\n\nendwhile",
+   "text": "nameExists = False\nwhile nameExists == <<<False>>>\ninputName = input(“Please enter your login name.”)\nfor index = <<<0 to users.length – 1>>>\nif users[index, 0] == inputName then\n<<<nameExists = True>>>\nendif\nnext index\nif <<<nameExists == False then>>>\nprint(“That login name does not exist.”)\nendif\nendwhile",
    "tokens": {
     "blank": [
      "False",
      "0 to users.length – 1",
      "nameExists = True",
-     "nameExists == False then",
+     "nameExists == False then"
+    ],
+    "text": [
+     "nameExists = False\nwhile nameExists == ",
+     0,
+     "\ninputName = input(“Please enter your login name.”)\nfor index = ",
+     0,
+     "\nif users[index, 0] == inputName then\n",
+     0,
+     "\nendif\nnext index\nif ",
+     0,
+     "\nprint(“That login name does not exist.”)\nendif\nendwhile"
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-849792925",
+  "source": {
+   "name": "Question 2:",
+   "showName": false,
+   "instructions": "**Select correct answers from the available list**",
+   "points": "1",
+   "showValues": true,
+   "text": "passwordCorrect = False\n<<<while passwordCorrect == False>>>\ninputPassword = input(“Please enter your password.”)\nif inputPassword == <<<users[index, 1] then>>>\npasswordCorrect = True\n<<<else>>>\nprint(“Sorry. The password is incorrect.”)\nendif\nendwhile",
+   "tokens": {
+    "blank": [
      "while passwordCorrect == False",
      "users[index, 1] then",
      "else"
     ],
     "text": [
-     "nameExists = False\n\nwhile nameExists == ",
+     "passwordCorrect = False\n",
      0,
-     "\n\n\tinputName = input(“Please enter your login name.”)\n\n\tfor index = ",
+     "\ninputPassword = input(“Please enter your password.”)\nif inputPassword == ",
      0,
-     "\n\n\t\tif users[index, 0] == inputName then\n\n\t\t\t",
+     "\npasswordCorrect = True\n",
      0,
-     "\n\n\t\tendif\n\n\tnext index\n\n\tif ",
-     0,
-     "\n\n\t\tprint(“That login name does not exist.”)\n\n\tendif\n\nendwhile\n\n\npasswordCorrect = False\n\n",
-     0,
-     "\n\n\tinputPassword = input(“Please enter your password.”)\n\n\tif inputPassword == ",
-     0,
-     "\n\n\t\tpasswordCorrect = True\n\n\t",
-     0,
-     "\n\n\t\tprint(“Sorry. The password is incorrect.”)\n\n\n\tendif\n\nendwhile"
+     "\nprint(“Sorry. The password is incorrect.”)\nendif\nendwhile"
     ]
    }
   }
