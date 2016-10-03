@@ -1,0 +1,73 @@
+{
+ "sections": [
+  {
+   "id": "a1b69c3a-3711-19a1-b3ac-69c2d3a79db1",
+   "title": "Defensive design considerations ",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Defensive-design-considerations--a1b6.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "2b0dd482-cf93-2729-c4e7-bac5b12f3e5a",
+   "title": "Input sanitation/validation",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Input-sanitation-validation-2b0d.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "fd046c62-bfb7-f481-6a70-bb845b46a0f9",
+   "title": "Authentication",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Authentication-fd04.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "1cb66038-4eaf-06e4-9bb0-9683a64dfb4c",
+   "title": "Maintainability",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Maintainability-1cb6.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "7353eb58-70c3-e378-b917-06e41786a472",
+   "title": "Summary",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Summary-7353.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "bdf076ef-42d7-098b-93da-fa602a661890",
+   "title": "Question",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Question-bdf0.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": ""
+}

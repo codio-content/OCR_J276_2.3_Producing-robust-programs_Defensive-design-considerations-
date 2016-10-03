@@ -1,0 +1,3 @@
+In this lesson we will look at how programmers should design their programs to cope with unexpected or erroneous input from the users. This input can be accidental or deliberate and all possibilities should be planned for.
+
+We will also look at how programs should be written to make them easier to maintain and for others to understand the logic behind them and also how they should be tested to minimise errors or bugs.

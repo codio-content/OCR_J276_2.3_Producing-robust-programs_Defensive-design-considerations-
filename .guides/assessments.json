@@ -1,0 +1,42 @@
+[
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-112428771",
+  "source": {
+   "name": "Question 1",
+   "showName": false,
+   "instructions": "**Select correct answers from the available list**",
+   "points": "1",
+   "showValues": true,
+   "text": "nameExists = False\n\nwhile nameExists == <<<False>>>\n\n\tinputName = input(“Please enter your login name.”)\n\n\tfor index = <<<0 to users.length – 1>>>\n\n\t\tif users[index, 0] == inputName then\n\n\t\t\t<<<nameExists = True>>>\n\n\t\tendif\n\n\tnext index\n\n\tif <<<nameExists == False then>>>\n\n\t\tprint(“That login name does not exist.”)\n\n\tendif\n\nendwhile\n\n\npasswordCorrect = False\n\n<<<while passwordCorrect == False>>>\n\n\tinputPassword = input(“Please enter your password.”)\n\n\tif inputPassword == <<<users[index, 1] then>>>\n\n\t\tpasswordCorrect = True\n\n\t<<<else>>>\n\n\t\tprint(“Sorry. The password is incorrect.”)\n\n\n\tendif\n\nendwhile",
+   "tokens": {
+    "blank": [
+     "False",
+     "0 to users.length – 1",
+     "nameExists = True",
+     "nameExists == False then",
+     "while passwordCorrect == False",
+     "users[index, 1] then",
+     "else"
+    ],
+    "text": [
+     "nameExists = False\n\nwhile nameExists == ",
+     0,
+     "\n\n\tinputName = input(“Please enter your login name.”)\n\n\tfor index = ",
+     0,
+     "\n\n\t\tif users[index, 0] == inputName then\n\n\t\t\t",
+     0,
+     "\n\n\t\tendif\n\n\tnext index\n\n\tif ",
+     0,
+     "\n\n\t\tprint(“That login name does not exist.”)\n\n\tendif\n\nendwhile\n\n\npasswordCorrect = False\n\n",
+     0,
+     "\n\n\tinputPassword = input(“Please enter your password.”)\n\n\tif inputPassword == ",
+     0,
+     "\n\n\t\tpasswordCorrect = True\n\n\t",
+     0,
+     "\n\n\t\tprint(“Sorry. The password is incorrect.”)\n\n\n\tendif\n\nendwhile"
+    ]
+   }
+  }
+ }
+]
